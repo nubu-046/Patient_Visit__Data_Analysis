@@ -1,5 +1,11 @@
 # Emergency Room Visit Dashboard 
+
+## Project Overview
 This interactive Power BI dashboard visualizes the emergency room visit statistics for the year 2019-2020. It provides an insightful overview of patient demographics, appointment types, department referrals, satisfaction scores, and average waiting times, helping healthcare administrators and analysts identify patterns, optimize resources, and improve patient experience.
+
+## Dataset used
+- <a href="https://github.com/nubu-046/Patient_Visit__Data_Analysis/blob/main/DataSet/Hospital%20ER.csv">Dataset</a>
+
 ## Dashboard Highlights
 -Total Visits: 4,878 patients visited the emergency room in 2020.
 -Appointment Breakdown:
@@ -24,9 +30,15 @@ This interactive Power BI dashboard visualizes the emergency room visit statisti
   -Lowest visits occurred in February (431)
 -Wait Time Heatmap:
   -Visual representation of wait times segmented by patient race and age group
-  -Darker green cells indicate lower wait times
-## Purpose
-This dashboard is designed to:
--Aid healthcare management in analyzing ER visit trends.
--Support data-driven decisions in hospital staffing and scheduling.
--Identify potential delays or bottlenecks in service delivery.
+  -Darker green cells indicate lower wait times\
+  
+## Power BI Dashboard Preview
+- <a href="https://github.com/nubu-046/Patient_Visit__Data_Analysis/blob/main/Screenshots/Screenshot%202025-04-09%20195040.png">Preview 1</a>
+- <a href="https://github.com/nubu-046/Patient_Visit__Data_Analysis/blob/main/Screenshots/Screenshot%202025-04-09%20195119.png">Preview 2</a>
+
+## Key Insight
+-Walk-in visits dominate (59.16%), indicating a high rate of unplanned ER usage.
+-Weekdays are busier, with 3.5K visits compared to only 1.4K on weekends.
+-Adults make up the majority of patients (3,753 out of 4,878), suggesting most ER services cater to adult cases.
+-Average wait time is 35.47 minutes, with disparities observed across age and race groups.
+-Satisfaction feedback is lacking, as 75.6% of services were not rated by patients.
